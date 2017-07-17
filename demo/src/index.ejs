@@ -21,9 +21,9 @@
           ceShimContainer.parentElement.removeChild(ceShimContainer);
         }
       </script>
-      <script type="text/javascript" src="bower_components/webcomponentsjs/custom-elements-es5-adapter.js"></script>
+      <script type="text/javascript" src="node_modules/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js"></script>
     </div>
-    
+
     <!--
       Use the webcomponents-loader script which will feature detect which Web
       Components features are missing and lazy load the appropriate polyfills.
@@ -41,7 +41,7 @@
         }, false);
       })();
     </script>
-    <script src="bower_components/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
 
     <!--
       IMPORTANT: Make sure you set the inject: false option in HTMLWebpackPlugin
